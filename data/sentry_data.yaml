@@ -1,0 +1,14 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+# train: /home/wangzw/sentry_task/sentry_data/images/train
+# val: /home/wangzw/sentry_task/sentry_data/images/val
+
+path: /home/wangzw/sentry_task/sentry_data  # dataset root dir
+train: images/train  # train images (relative to 'path') 1742289 images
+val: images/val # val images (relative to 'path') 80000 images
+
+# number of classes
+nc: 6
+
+# class names
+# 红一 红二 蓝一 蓝二 死一 死二 分别对应 0 1 2 3 4 5
+names: [ 'red1', 'red2', 'blue1', 'blue2', 'dead1', 'dead2']
