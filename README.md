@@ -2,7 +2,7 @@
 
 <details open>
 <summary>简介</summary>
-本项目基于 [Yolov5](https://github.com/ultralytics/yolov5/tree/v7.0) 开源项目，实现了全向旋转目标检测。基于回归的方式对目标朝向信息进行分类，通过计算L1损失并和其他几个损失加权求和得到总的损失。
+本项目基于 https://github.com/ultralytics/yolov5/tree/v7.0 开源项目，实现了全向旋转目标检测。基于回归的方式对目标朝向信息进行分类，通过计算L1损失并和其他几个损失加权求和得到总的损失。
 </details>
 
 <details open>
@@ -29,11 +29,11 @@ label x y w h theta
 <details open>
 <summary>旋转目标标注工具推荐</summary>
 
-- [roLabelImg] (https://github.com/wzw1105/roLabelImg)
+- https://github.com/wzw1105/roLabelImg
 </details>
 
 <details open>
 <summary>Reference</summary>
 
-- [https://github.com/ultralytics/yolov5/tree/v7.0] (https://github.com/ultralytics/yolov5/tree/v7.0)
+- https://github.com/ultralytics/yolov5/tree/v7.0
 </details>
