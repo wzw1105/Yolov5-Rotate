@@ -36,4 +36,5 @@ label x y w h theta
 <summary>Reference</summary>
 
 - https://github.com/ultralytics/yolov5/tree/v7.0
+- https://github.com/Critical-HIT-hitsz/RMUA2022
 </details>
